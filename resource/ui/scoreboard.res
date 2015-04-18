@@ -528,7 +528,7 @@
 		"font"			"ScoreboardFont"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"xpos"			"340"
+		"xpos"			"c-90"
 		"ypos"			"445"
 		"zpos"			"5"
 		"wide"			"165"
@@ -853,8 +853,8 @@
 			"fieldName"		":"
 			"font"			"Gothic24"
 			"labelText"		":"
-			"textAlignment"		"east"
-			"xpos"			"c-100"
+			"textAlignment"		"center"
+			"xpos"			"c-55"
 			"ypos"			"10"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
@@ -940,7 +940,7 @@
 			"font"			"Gothic32"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
-			"xpos"			"c-5"
+			"xpos"			"c-2"
 			"ypos"			"3"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"

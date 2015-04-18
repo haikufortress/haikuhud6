@@ -6,11 +6,11 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"LightGreen"
-		"NegativeColor"			"White"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"TimerFont"
-		"delta_item_font_big"	"TimerFont"
+		"PositiveColor"			"255 255 0 255"
+		"NegativeColor"			"255 255 0 255"
+		"delta_lifetime"		"1.0"
+		"delta_item_font"		"IDNumbers"
+		"delta_item_font_big"	"IDNumbers"
 	}
 	"DamageAccountValue"
 	{

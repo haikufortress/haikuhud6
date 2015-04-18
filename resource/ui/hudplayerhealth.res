@@ -188,11 +188,26 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 	}
+"PlayerStatus_MedicUberBulletResistImageAnchor"
+{
+"ControlName" "EditablePanel"
+"fieldName" "PlayerStatus_MedicUberBulletResistImageAnchor"
+"xpos" "999"
+"ypos" "999"
+<<<<<<< HEAD
+"wide" "60"
+=======
+"wide" "50"
+>>>>>>> origin/master
+"tall" "50"
+"visible" "1"
+"enabled" "1"
+}
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
-		"xpos"			"85"
+		"xpos"			"105"
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
@@ -203,6 +218,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+"pin_to_sibling" "PlayerStatus_MedicUberBulletResistImageAnchor"
+"pin_corner_to_sibling" "1"
+"pin_to_sibling_corner" "1"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
@@ -241,8 +259,8 @@
 {
 "ControlName" "EditablePanel"
 "fieldName" "PlayerStatus_MedicSmallBulletResistImageAnchor"
-"xpos" "120"
-"ypos" "50"
+"xpos" "-30"
+"ypos" "0"
 <<<<<<< HEAD
 "wide" "60"
 =======
@@ -281,8 +299,8 @@
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
@@ -297,8 +315,8 @@
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
