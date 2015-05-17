@@ -144,7 +144,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" "25 41 37 205"
+		"fillcolor" "15 15 17 205"
 	}	
 	
 	"IconBG"	
