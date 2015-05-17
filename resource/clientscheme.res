@@ -33,7 +33,7 @@ Scheme
 		"BoxBuffColor" "176 237 111 225"
 		
 		"GrayBG" "36 34 34 255"
-		"MenuLightGray" "215 215 215 200"
+		"MenuLightGray" "215 215 215 255"
 		"MenuWhite" "255 255 255 255"
 		"MenuBlack" "0 0 0 255"
 		// base colors
@@ -521,17 +521,6 @@ Scheme
 			"antialias" "1"
 			}
 		}
-	"Scoreboardfont"
-		{
-		    "1"
-			{
-			 
-			"name" "Segoe UI Semilight"
-			"tall" "16"
-			"weight" "0"
-			"antialias" "1"
-			}
-		}
 	"Calibri"
 		{
 		    "1"
@@ -598,6 +587,16 @@ Scheme
 			"antialias" "1"
 			}
 		}
+		"MenuName"
+		{
+		    "1"
+			{
+			    "name" "HelveticaNeue-Thin"
+				"tall" "20"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}	
 		"AmmoReserveFont"
 		{
 		    "1"
@@ -4717,6 +4716,65 @@ weight "0"
 				}
 			}
 		}
+		AdvancedOptionsBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "MenuLightGray"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "MenuLightGray"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "MenuLightGray"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "MenuLightGray"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "MenuLightGray"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "MenuLightGray"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "MenuLightGray"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "MenuLightGray"
+					"offset" "0 0"
+				}
+			}
+		}		
 		
 		ScrollBarButtonBorder
 		{
@@ -5066,6 +5124,17 @@ weight "0"
 			"draw_corner_height" 	"0"
             "color" "GrayBG"			
 		}
+		OptionsBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
+            "color" "MenuLightGray"			
+		}		
 		
 		StoreFreeTrialBorder
 		{
